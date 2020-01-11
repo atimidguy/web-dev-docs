@@ -1,7 +1,7 @@
 {
-  "name": "vue-press-blog",
+  "name": "web-dev-docs",
   "version": "1.0.0",
-  "description": "my blog",
+  "description": "web development documentation",
   "main": "index.js",
   "author": "Marcus",
   "license": "MIT",
@@ -9,7 +9,8 @@
     "docs:dev": "vuepress dev .",
     "docs:build": "vuepress build ."
   },
-  "dependencies": {
-    "vuepress-plugin-clean-urls": "^1.1.1"
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.2.0"
   }
 }
