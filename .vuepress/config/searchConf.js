@@ -1,4 +1,4 @@
 module.exports = {
-  searchMaxSuggestions: 10,
+  searchMaxSuggestions: 5,
   searchPlaceholder: 'Search...'
 };
