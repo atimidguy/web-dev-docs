@@ -1,0 +1,15 @@
+{
+  "name": "vue-press-blog",
+  "version": "1.0.0",
+  "description": "my blog",
+  "main": "index.js",
+  "author": "Marcus",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev .",
+    "docs:build": "vuepress build ."
+  },
+  "dependencies": {
+    "vuepress-plugin-clean-urls": "^1.1.1"
+  }
+}
