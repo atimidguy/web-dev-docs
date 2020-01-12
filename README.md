@@ -9,7 +9,7 @@ actionText: 进入笔记 →
 
 #### :tada: [Github](https://www.github.com/atimidguy/) :tada:
 
-::: tip
+::: tip CUSTOM_TEXT_HERE
 This is a tip
 :::
 
@@ -20,3 +20,8 @@ This is a warning
 ::: danger
 This is a dangerous warning
 :::
+
+<!-- not working in Chrome either -->
+<!-- ::: details
+This is a details block, which does not work in IE / Edge
+::: -->
