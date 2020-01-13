@@ -5,6 +5,7 @@ const plugins = require('./config/pluginsConf');
 // const sidebar = require('./config/sidebarConf')
 
 module.exports = {
+  head, // `head` 不能卸载themeConfig中。。。
   host: 'localhost',
   port: 8888,
   title: 'I am a lazy guy',
@@ -23,7 +24,6 @@ module.exports = {
     // 默认为 "Edit this page"
     editLinkText: '编辑文档！',
     logo: '/assets/img/snow.jpg',
-    head,
     nav,
     sidebar: 'auto',
     ...searchConf,
