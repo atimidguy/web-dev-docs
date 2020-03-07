@@ -2,15 +2,20 @@ const head = require('./config/headConf');
 const nav = require('./config/navbarConf');
 const searchConf = require('./config/searchConf');
 const plugins = require('./config/pluginsConf');
+const markdown = require('./config/markdownConf');
 // const sidebar = require('./config/sidebarConf')
 
 module.exports = {
   head, // `head` 不能卸载themeConfig中。。。
+  markdown,
+  plugins,
   host: 'localhost',
   port: 8888,
   title: 'I am a lazy guy',
   description: 'A front end blog',
   themeConfig: {
+    nav,
+    ...searchConf,
     repo: 'atimidguy/web-dev-docs',
     repoLabel: '查看源码',
     // 假如你的文档仓库和项目本身不在一个仓库：
@@ -24,11 +29,8 @@ module.exports = {
     // 默认为 "Edit this page"
     editLinkText: '编辑文档！',
     logo: '/assets/img/snow.jpg',
-    nav,
     sidebar: 'auto',
-    ...searchConf,
     lastUpdated: 'Last Updated',
     smoothScroll: true // 点击左侧链接时平滑滚动
-  },
-  plugins
+  }
 };

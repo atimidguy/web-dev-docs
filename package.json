@@ -6,10 +6,13 @@
   "author": "Marcus",
   "license": "MIT",
   "scripts": {
+    "serve": "yarn docs:dev",
     "docs:dev": "vuepress dev .",
     "docs:build": "vuepress build ."
   },
-  "dependencies": {},
+  "dependencies": {
+    "markdown-it-task-lists": "^2.1.1"
+  },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.2.0",
     "@vuepress/plugin-google-analytics": "^1.2.0",

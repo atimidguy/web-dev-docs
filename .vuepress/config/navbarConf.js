@@ -12,12 +12,15 @@ module.exports = [
           { text: 'Vue', link: '/frameworks/vue/' },
           { text: 'React', link: '/frameworks/react/' }
         ]
+      },
+      {
+        text: '构建工具',
+        items: [{ text: 'Webpack', link: '/webpack/' }]
       }
     ]
   },
   {
     text: '后端',
-
     items: [
       { text: 'Node.js', link: '/nodejs/' },
       {
@@ -36,7 +39,7 @@ module.exports = [
         text: 'Snippets',
         items: [
           { text: 'CSS demos', link: '/demos/css-demos/' },
-          { text: 'JavaScript demos', link: '/demos/javascript-demos/' }
+          { text: 'JavaScript Snippets', link: '/demos/javascript-snippets/' }
         ]
       }
     ]
