@@ -7,7 +7,7 @@ actionLink: /demos/
 actionText: 进入笔记 →
 ---
 
-#### :tada: [Github](https://www.github.com/atimidguy/) :tada:
+#### :tada: made with love by [atimidguy](https://www.github.com/atimidguy/) :tada:
 
 ::: tip CUSTOM_TEXT_HERE
 This is a tip
